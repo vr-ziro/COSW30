@@ -1,14 +1,23 @@
 <!DOCTYPE html>
+/* File: lab1.php Name: Victor Rodriguez, date: 8-31-2019 */
 <html> 
     <head>
-        <title>My 1st PHP Page!</title>
+        <title>Labwork 1: Hello World</title>
     </head>
     <body>
-        <h1>Victor Rodriguez</h1>
-        <p>Drool somehow manage to catch a bird but have no idea what to do next, so play with it until it dies of shock cats woo or sit and stare lick arm hair. Destroy house in 5 seconds curl up and sleep on the freshly laundered towels chew master's slippers but hit you unexpectedly ignore the human until she needs to get up.</p>
+        <h1>Hi There!</h1>
+        <p>Hello, my name is Victor Rodriguez and I seriously enjoy art and tech. Ever since I can remember I have always been interested in how technology worked as well as the performing arts. Ended up learning a few instruments and am now picking up coding. P.S my GitHub profile can be found <a href="https://github.com/vr-ziro">here.</a></p>
+        
+        <p>My Hobbies include: </p>
+        <ul>
+            <li>Coding</li>
+            <li>Playing Drums</li>
+            <li>Going to Concerts</li>
+        </ul>
         
         <?php
-            echo 'This is my beautiful paragraph.';
+            echo '<p>Hmmm, along the lines of websites that I use, it would probably have to be between <a href="https://www.youtube.com/">YouTube</a>, <a href="https://www.netflix.com/browse">Netflix</a>, and <a href="https://stackoverflow.com/">Stack Overflow</a>. Mainly because I tend to watch alot of shows to relax and look up alot of problems when coding.<p>';
+            echo '<p> As a whole, this assignment was not too bad, honesly pretty cool to think I have 3 different languages within 1 file. All in all, I am looking forward to what PHP has to offer.'
         ?>
         
     </body>
